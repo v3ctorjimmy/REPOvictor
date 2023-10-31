@@ -10,12 +10,12 @@ void ft_print_comb2(void)
     while(a <= '9')
     {
         b = '0';
-        while(b <= '8')
+        while(b <= '9')
         {
-            c = '0';
+            c = a;
             while(c <= '9')
             {
-                d = b + 1;
+                d = b+1;
                 while(d <= '9')
                 {
                     if(!(a == 9 && b == 8 && c == 9 && d==9))
